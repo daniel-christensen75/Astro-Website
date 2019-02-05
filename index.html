@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<link href="css/animate.css" rel="stylesheet"/>
+	<link href="css/waypoints.css" rel="stylesheet"/>
+	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+	<script src="js/waypoints.js" type="text/javascript"></script>
+	<title>Learn About Our Solar System</title>
+</head>
+<body>
+	<div class="intro">
+		<section class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".7s">
+			<div class = "navbar" id="myHeader">
+				<div class= "logo">
+					<img src="img/index/moon.jpg"/>
+				</div>
+				<a class="active" href="index.html">Home</a>
+				<a href="SolarSystem.html">Explore Our Solar System</a>
+				<div class="dropdown">
+	                <button class="dropbtn">Other<i class="fa fa-caret-down"></i></button>
+	                <div class="dropdown-content">
+	                    <a href="https://kidsastronomy.com/astronomy-games/">Games</a>
+	                    <a href="https://kidsastronomy.com/astronomy-videos/">Videos</a>
+	                    <a href="About.html">About</a>
+	                </div>
+	            </div>
+			</div>
+		</section>
+			<div class="IntroContent">
+				<section class="os-animation" data-os-animation="zoomIn" data-os-animation-delay=".3s">
+					<h1>SPACE</h1>
+				</section>
+			</div>
+	</div>
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset > sticky) {
+				header.classList.add("sticky");
+			} else {
+				header.classList.remove("sticky");
+			}
+		}
+	</script>
+</body>
+</html>

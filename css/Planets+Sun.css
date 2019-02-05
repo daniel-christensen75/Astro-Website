@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+body {
+    background-image: url("../img/SolarSystem/StarBackground.png")
+}
+
+.mainContent .mainText {
+    background: #cecec4;
+    opacity: 0.9;
+    width: 40%;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'Yantramanav', sans-serif;
+    float: left;
+}
+
+.mainContent .mainText h2 {
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+.mainContent .mainText p {
+    margin: 10px 13px 10px 13px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 150%;
+    text-indent: 30px;
+}
+
+.image1 {
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    margin: 2% 0% 0% 45%;
+}
+
+.image1 img{
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+.mainContent .image2 {
+	width: 25%;
+	height: 25%;
+    margin-left: 2%;
+    margin-top: 8%;
+	float: left;
+
+}
+
+.mainContent .image2 img {
+	width: 100%;
+	height: auto;
+    border-radius: 30px;
+}
+
+.mainContent .image3 {
+	width: 25%;
+	height: 25%;
+    margin-right: 2%;
+    margin-top: 15%;
+	float: right;
+}
+
+.mainContent .image3 img {
+	width: 100%;
+	height: auto;
+    border-radius: 30px;
+}
+
+.footer {
+    float: none;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 110%;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.footer a {
+    color: black;
+
+}
